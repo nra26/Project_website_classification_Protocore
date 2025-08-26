@@ -18,7 +18,7 @@ with st.form("classification_form"):
     # PROTOCORE 1
     with col1:
         st.subheader("Protocore 1")
-        st.image("gambar_protocore.jpg", use_column_width=False, width=200)
+        st.image("gambar_protocore.jpg", use_container_width=False, width=200)
         label_col, value_col = st.columns([2, 1])
         with label_col:
             st.text_input("Main Stat 1", value="HP", disabled=True)
@@ -52,7 +52,7 @@ with st.form("classification_form"):
     # PROTOCORE 2
     with col2:
         st.subheader("Protocore 2")
-        st.image("gambar_protocore.jpg", use_column_width=False, width=200)
+        st.image("gambar_protocore.jpg",  use_container_width=False, width=200)
         label_col, value_col = st.columns([2, 1])
         with label_col:
             st.text_input("Main Stat 2", value="HP", disabled=True)
